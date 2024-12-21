@@ -3,7 +3,7 @@ body {
   padding: 0;
   height: 100vh; /* Use the full viewport height */
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #84fab0, #8fd3f4); /* Gradient background */
+  background: linear-gradient(to left, #e7a48a, #d0b7f1); /* Gradient background */
   color: #333;
   display: flex; /* Enables flexbox layout */
   align-items: center; /* Vertically centers the child elements */
