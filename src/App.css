@@ -1,23 +1,23 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh; /* Use the full viewport height */
+  height: 100vh; 
   font-family: Arial, sans-serif;
-  background: linear-gradient(to left, #e7a48a, #d0b7f1); /* Gradient background */
+  background:#0066cc;
   color: #333;
-  display: flex; /* Enables flexbox layout */
-  align-items: center; /* Vertically centers the child elements */
-  justify-content: center; /* Horizontally centers the child elements */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .App {
   max-width: 500px;
-  width: 100%; /* Ensures it respects the max-width */
-  margin: auto; /* Centers the element in the allocated flex container space */
+  width: 100%; 
+  margin: auto; 
   padding: 20px;
-  background-color: #e0cece; /* Light grey background */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds shadow for depth */
-  border-radius: 8px; /* Rounded corners */
+  background-color: #e0cece; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  border-radius: 8px; 
 }
 
 h1 {
@@ -40,7 +40,7 @@ input[type="text"] {
 button {
   padding: 10px 15px;
   font-size: 16px;
-  background-color: #0066cc; /* Blue */
+  background-color: #0066cc; 
   color: white;
   border: none;
   cursor: pointer;
